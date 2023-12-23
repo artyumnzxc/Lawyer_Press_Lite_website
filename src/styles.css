@@ -1,0 +1,933 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+.navbar-toggler {
+    font-size: 0.90rem; /* Adjust the size as needed */
+}
+.navbar-nav {
+    margin-right: 25px;
+  }
+ 
+
+  .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.carousel-caption h1 {
+  
+        font-size: 60px;
+        font-family: "Cormorant";
+        color: #fff;
+        text-transform: Capitalize;
+        margin-top: 0;
+        font-weight: 700;
+        margin-bottom: 30px;
+        line-height: 77px;
+   
+}
+.sec-content .widget ul li a, .sec-content .widget span, .sec-content .widget p {
+    color: #666;
+}
+.site-title a{
+    margin-left: 30px;
+}
+
+.widget ul li a {
+	color: #999;
+	font-size: 16px;
+}
+.site-description {
+    margin-left: 30px;
+}
+aside.widget-area .widget-title,.woocommerce-page.archive .sec-content .widget-title  {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 17px 20px;
+    background: #f5f5f5;
+    color: #333;
+}
+.widget ul li a {
+    color: #999;
+    font-size: 16px;
+}
+ul {
+    list-style: none; /* Remove the default list style (bullets) */
+    color: black;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+    clear: both;
+}
+.wp-block-latest-posts.wp-block-latest-posts__list ul  {
+    list-style: none;
+    padding-left: 0;
+}
+.wp-block-group ul li a {
+    color: #333;
+    margin-left:-30px;
+    
+}
+ .prefooter li {
+    color: rgba(255, 255, 255, 0.5);
+        }
+
+a {
+    text-decoration: none !important;
+}
+a {
+    text-decoration: none !important;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer-widget h2.widget-title {
+    color: white;
+    font-family: 'Dancing Script'; 
+}
+
+.footer-widget p {
+    color: white;
+}
+
+.footer-widget ul.wp-block-latest-posts a {
+    color: white;
+}
+
+.bottomfooter {
+    background-color: black;
+    color: white;
+}
+
+.bottomfooter a {
+    color: white;
+}
+
+.section-title h2 {
+    margin-top: 45px;
+}
+
+
+a.btn.btn-default {
+    color: #8B4513;
+    /* border-color: #8B4513;  */
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+a.btn.btn-default:hover {
+    color:black; /* White text on hover */
+    background-color: #8B4513; /* Brown background on hover */
+    transition: all 0.3s ease 0s;
+   
+}
+.cta-btn-wrap {
+    margin-bottom: -10px; /* Adjust the negative margin as needed */
+}
+
+.cta-btn-wrap a.btn {
+    margin-bottom: 0; /* Set margin-bottom to 0 for the button */
+}
+
+
+.btn.btn-default{
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 2px solid #c0b596;
+    color: #fff;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    
+}
+
+
+.post-featured-image img {
+    width: 100%;
+}
+
+
+h3.title {
+
+    text-align: center;
+    font-size: 30px;
+    line-height: 31px;
+}
+
+
+/* Style for the section */
+#promo {
+    background-size: cover; 
+    background-position: center;
+    color: #fff; 
+    padding: 80px 0; 
+}
+
+.prefooter {
+    padding: 65px 0;
+    background: #2d2d2d;
+    color: #999;
+}
+#promo .container {
+    position: relative; 
+}
+
+/* Style for the row */
+#promo .row {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Style for the promo content */
+#promo .promo-content {
+    max-width: 600px;
+    text-align: center; 
+   margin-right: 20px; 
+   margin-bottom: 30px;
+}
+
+.promo-content h2{
+    color: white;
+}
+
+/* Style for the heading */
+#promo h2 {
+    font-size: 32px; 
+    margin-bottom: 20px; 
+}
+
+/* Style for the paragraph */
+#promo p {
+    font-size: 16px; 
+    margin-bottom: 30px; 
+}
+
+/* Style for the CTA button wrap */
+#promo .cta-btn-wrap {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+/* Style for the CTA button */
+#promo .btn-default {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: #fff;
+    background-color: #007bff; 
+    border: none; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover effect for the CTA button */
+#promo .btn-default:hover {
+    background-color: #0056b3; 
+}
+
+/* Style for the blog section */
+.blog-section {
+    padding: 80px 0; /* Adjust the padding as needed */
+    background-color: #f8f9fa; /* Add a background color */
+}
+
+/* Style for the section title */
+.blog-section .section-title {
+    text-align: center; /* Center the text */
+    margin-bottom: 40px; /* Adjust the margin as needed */
+}
+
+/* Style for the blog posts */
+.blog-section .post-wrap {
+    margin-bottom: 40px; /* Adjust the margin between posts as needed */
+}
+
+/* Style for the post image */
+.blog-section .post-featured-image img {
+    width: 100%; /* Make the image responsive */
+    border-radius: 8px; /* Add rounded corners */
+}
+
+/* Style for the post review */
+.blog-section .post-review {
+    background-color: #fff; /* Set background color for the review */
+    padding: 20px; /* Add padding to the review */
+    border: 1px solid #dee2e6; /* Add a border */
+    border-radius: 8px; /* Add rounded corners */
+}
+
+/* Style for the entry meta */
+.blog-section .entry-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; 
+}
+
+
+.blog-section .author-img img {
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+
+.blog-section .post-description {
+    margin-bottom: 25px; 
+}
+
+/* Style for the "Read more" button */
+.blog-section .btn-default {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+/* Hover effect for the "Read more" button */
+.blog-section .btn-default:hover {
+    color: #0056b3; /* Change text color on hover */
+}
+
+
+.post-review h4 {
+    font-family: 'Quicksand';
+    font-weight: 400; 
+    font-size: 18px;
+    margin-bottom: 10px; 
+}
+
+.entry-header h3{
+    font-weight: 400;
+}
+
+
+
+.service-layout2.serviceBox .description {
+    font-size: 18px;
+    color: #777;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.service-layout2.service-free.serviceBox .title {
+    margin-top: 0;
+}
+.service-layout2.serviceBox .title {
+    font-size: 26px;
+    color: #484848;
+    margin: 25px 0 10px 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.serviceBox p {
+    margin-top: 15px; /* Adjust the value as needed */
+}
+
+#promo {
+    margin-top: 50px ;
+}
+
+.serviceBox.service-layout2.service-free {
+    padding-top: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .site-title a,
+    .site-description {
+        margin-left: 0; /* Remove left margin for site title and description */
+    }
+
+    .col-md-6 {
+        width: 100%; /* Make the columns full width on smaller screens */
+    }
+
+    .pic img {
+        width: 100%; /* Make the image inside the .pic div full width */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 20px; /* Add space between the image and the text */
+    }
+
+    #promo .cta-btn-wrap {
+        top: auto; /* Remove top position for CTA button wrap */
+        transform: translateX(0); /* Center the CTA button */
+        margin-top: 20px; /* Add space between the promo content and the button */
+    }
+
+    .blog-section .section-title h2 {
+        margin-top: 20px; /* Adjust top margin for blog section title */
+    }
+
+    .blog-section .col-md-4 {
+        width: 100%; /* Make the blog columns full width on smaller screens */
+    }
+
+    .post-review h4 {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .entry-meta {
+        flex-direction: column; /* Stack entry meta items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .serviceBox p {
+        margin-top: 15px; /* Adjust the value as needed */
+    }
+
+    #promo {
+        margin-top: 20px; /* Adjust margin-top for the promo section */
+    }
+
+    .serviceBox.service-layout2.service-free {
+        padding-top: 15px; /* Adjust padding-top for the service box */
+    }
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.prefooter .widget-title {
+    color: #fff;
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 9px 18px;
+    position: relative;
+    text-align: left;
+    padding-left: 0;
+    font-weight: 500;
+}
+
+.prefooter .widget-title {
+    color: #fff;
+    font-size: 26px !important;
+}
+
+
+
+p {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.widget_calendar #wp-calendar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-width: 1px 0 0 1px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.widget_calendar #wp-calendar caption {
+    font-size: 18px;
+    padding: 0 0 30px;
+    text-transform: uppercase;
+}
+
+.wp-block-calendar caption {
+    background-color: inherit;
+}
+
+.widget_calendar #wp-calendar td {
+    color: #999;
+}
+
+.wp-block-calendar td, .wp-block-calendar th {
+    border: 1px solid;
+    padding: 0.25em;
+}
+
+.wp-block-calendar table:where(:not(.has-text-color)) td, .wp-block-calendar table:where(:not(.has-text-color)) th {
+    border-color:  #ddd;
+}
+
+
+.widget_calendar #wp-calendar th, .widget_calendar #wp-calendar tfoot td {
+    background-color: #f4f4f4;
+}
+
+
+.blog-section .post-wrap a.btn.btn-default {
+    padding: 7px 20px;
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.blog-section .post-review h4  {
+    color: #333333;
+    font-size: 26px;
+    line-height: 28px;
+    font-family: 'Cormorant',
+}
+
+
+.prefooter ul li {
+    margin-bottom: 5px;
+}
+
+
+.prefooter ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.prefooter .widget ul {
+    padding: 0 !important;
+}
+ h5  {
+    color: #333;
+    font-family: 'Cormorant';
+}
+
+.section-title h2{
+    color: #333;
+    font-family: 'Cormorant';
+}
+
+
+.serviceBox.service-layout2.service-free:hover {
+    background-color: #D2B48C; 
+  
+}
+
+.serviceBox.service-layout2.service-free:hover .title,
+.serviceBox.service-layout2.service-free:hover .description {
+    color: #fff; /* White text color on hover */
+}
+
+
+p {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+p {
+    margin: 0 0 10px;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.service-layout2.serviceBox {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .site-title a,
+    .site-description {
+        margin-left: 0; /* Remove left margin for site title and description */
+    }
+
+    .col-md-6 {
+        width: 100%; /* Make the columns full width on smaller screens */
+    }
+
+    .pic img {
+        width: 100%; /* Make the image inside the .pic div full width */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 20px; /* Add space between the image and the text */
+    }
+
+    #promo .cta-btn-wrap {
+        top: auto; /* Remove top position for CTA button wrap */
+        transform: translateX(0); /* Center the CTA button */
+        margin-top: 20px; /* Add space between the promo content and the button */
+    }
+
+    .blog-section .section-title h2 {
+        margin-top: 20px; /* Adjust top margin for blog section title */
+    }
+
+    .blog-section .col-md-4 {
+        width: 100%; /* Make the blog columns full width on smaller screens */
+    }
+
+    .post-review h4 {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .entry-meta {
+        flex-direction: column; /* Stack entry meta items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .serviceBox p {
+        margin-top: 15px; /* Adjust the value as needed */
+    }
+
+    #promo {
+        margin-top: 20px; /* Adjust margin-top for the promo section */
+    }
+
+    .serviceBox.service-layout2.service-free {
+        padding-top: 15px; /* Adjust padding-top for the service box */
+    }
+
+    /* Additional styles for responsiveness... */
+}
+.widget {
+    margin-bottom: 30px;
+}
+
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.copyright {
+    color: #999;
+}
+
+
+
+a {
+    color: #c0b596;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (min-width: 992px){
+.col-md-12 {
+    width: 100%;
+}
+}
+
+.col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+div {
+    display: block;
+}
+.bottomfooter {
+    background: #373737;
+    text-align: center;
+    padding: 15px 0;
+}
+a {
+    color: #c0b596;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.widget_calendar #wp-calendar th, .widget_calendar #wp-calendar tfoot td {
+    background-color: #f4f4f4;
+}
+.wp-block-calendar table:where(:not(.has-text-color)) td, .wp-block-calendar table:where(:not(.has-text-color)) th {
+    border-color:  #ddd;
+}
+
+.blog-section .post-wrap a.btn.btn-default {
+    padding: 7px 20px;
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.blog-section .post-wrap a.btn.btn-default {
+    background: #c0b596;
+    color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.17), 0 6px 14px 0 rgba(0, 0, 0, 0.17) !important;
+
+}
+
+.btn-default {
+    border-radius: 0;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 23px;
+    margin: 10px 10px 0;
+    padding: 12px 32px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+h1 a {
+    font-weight: inherit;
+}
+.site-branding .site-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.site-branding .site-title {
+    padding-bottom: 0;
+    font-weight: 500 !important;
+    font-size: 26px !important;
+    padding-left: 0 !important;
+    margin: 0;
+}
+ h3 {
+    color: #333;
+    font-family: 'Cormorant';
+}
+
+.example button {
+    background-color: #d2b48c; /* Light brown background color for the button */
+    border: 1px solid #baa184; /* Darker brown border color */
+    padding: 3px;              /* Adjust padding as needed */
+  }
+
+  .example input[type="text"] {
+    background-color: #f2f2f2; /* Light gray background color */
+    border: 1px solid #ddd;    /* Light gray border color */
+    padding: 8px;              /* Adjust padding as needed */
+  }
+
+  .example button {
+    background-color: #d2b48c; /* Light brown background color for the button */
+    border: 1px solid #baa184; /* Darker brown border color */
+    padding: 8px;              
+  }
+
+  .example {
+    margin: auto;
+    max-width: 300px;
+   
+  }
+
+  .sec-content aside.widget .widget-title {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 17px 20px;
+    background: #f5f5f5;
+    color: #333;
+}
+
+aside.widget h2 {
+    padding-bottom: 5px;
+}
+
+.sec-content aside.widget ul, .sec-content aside.widget ol {
+    padding-left: 0 !important;
+}
+
+.widget_recent_entries ul li, .widget_archive ul li {
+    display: block;
+    padding: 6px 0 7px 5px;
+}
+
+.entry-format:before,
+.entry-meta .entry-format:before,
+.entry-header .entry-meta .entry-format:before {
+	color: #000;
+	font-family: 'FontAwesome';
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-align: center;
+	text-decoration: inherit;
+	text-transform: none;
+	vertical-align: top;
+	margin-right: 5px;
+	position: relative;
+}
+.site-branding p{
+    margin-top: 2px; 
+}
+.nav-wrapper .navbar .nav li > a{
+    font-family: "Raleway" !important;
+}
+.widget {
+    margin-bottom: 30px;
+}
+.search-form {
+    display: flex;
+}
+.search.search-no-results section {
+    padding-top: 0 !important;
+}
+.search-form {
+    display: flex;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.search-form label, .search-form label input {
+    width: 85%;
+}
+#search-box input.search-field {
+	width: calc(100% - 100px);
+}
+#search-box .search-submit {
+	width: 100px;
+}
+#search-box input[type="search"] {
+	background-color: transparent;
+}
+
+input.search-field {
+    border-radius: 0;
+    color: #747474;
+    float: left;
+    font-size: 14px;
+    height: 46px;
+    line-height: 22px;
+    margin: 0;
+    padding: 6px 8px;
+    border: 1px solid #ccc; 
+}
+
+
+input.search-field:focus,
+input.search-field:active {
+    border-color: #ddd; 
+    outline: none; 
+}
+
+aside.widget h2 {
+    padding-bottom: 5px;
+}
+
+.search-submit {
+	background-color: #c0b596;
+	border: 1px solid #c0b596;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+	border-radius: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	height: 46px;
+	margin-left: -60px;
+	outline: medium none;
+	right: 0;
+	width: 60px;
+		-moz-transition: all 300ms ease-out 0s;
+		-o-transition: all 300ms ease-out 0s;
+		-webkit-transition: all 300ms ease-out 0s;
+	transition: all 300ms ease-out 0s;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.search-submit:hover {
+	font-size: 22px;
+}
+
+@media only screen and (max-width: 480px) {
+	.bbp-search-form input[type="submit"] {
+		height: 29px;
+	}
+}
+
+label {
+    cursor: default;
+}
+.wp-block-search__button:hover {
+    background: #000;
+    color: #fff;
+}
+.search section {
+    border-bottom: 0;
+}
+.search-form {
+    margin-top: 20px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+	font-family: 'Cormorant', sans-serif;
+	font-weight: 400;
+	margin-top:0;
+	padding-bottom: 20px;
+}
+
+.wp-block-heading h2{
+    font-family: 'Cormorant', sans-serif;
+}
+
+h2.entry-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+	font-family: 'Cormorant', sans-serif;
+	font-weight: 400;
+	margin-top:0;
+	padding-bottom: 20px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight: inherit;
+}
+h1 {
+	font-size: 40px;
+	line-height: 40px;
+}
+h2 {
+	font-size: 36px;
+	line-height: 33px;
+}
+h3 {
+	font-size: 30px;
+	line-height: 31px;
+}
+h4 {
+	font-size: 24px;
+	line-height: 29px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 27px;
+}
+h6 {
+	font-size: 14px;
+	line-height: 25px;
+}
